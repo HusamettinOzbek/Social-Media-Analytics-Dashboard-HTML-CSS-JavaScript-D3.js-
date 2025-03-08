@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>İŞ BANKASI SOCIAL MEDIA MANAGEMENT REVIEW</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img class="photo-1" src="isbankasi.svg" alt="">
+            <h1>IS BANK SOCIAL MEDIA MANAGEMENT REVIEW</h1>
+            <div class="platform-tabs">
+                <button class="tab active" onclick="switchPlatform('X')">X (Twitter)</button>
+                <button class="tab" onclick="switchPlatform('YouTube')">YouTube</button>
+            </div>
+        </div>
+
+        <div class="metrics-overview">
+            <div class="metric-card">
+                <div class="metric-header">
+                    <div class="metric-title">Platform Performance</div>
+                    <div id="platform-badge" class="metric-badge">X</div>
+                </div>
+                <div class="metric-value" id="platform-followers">-</div>
+                <div class="metric-label">Followers / Subscribers</div>
+                <div class="metric-stats">
+                    <div class="stat-item">
+                        <div class="stat-value" id="monthly-growth">-</div>
+                        <div class="stat-label">Monthly Growth</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="total-posts">-</div>
+                        <div class="stat-label">Total Content</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-header">
+                    <div class="metric-title">Engagement Overview</div>
+                </div>
+                <div class="metric-value" id="total-engagement-rate">-</div>
+                <div class="metric-label">Average Engagement Rate</div>
+                <div class="metric-stats">
+                    <div class="stat-item">
+                        <div class="stat-value" id="total-platform-likes">-</div>
+                        <div class="stat-label">Total Likes</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="total-platform-comments">-</div>
+                        <div class="stat-label">Total Comments</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-header">
+                    <div class="metric-title">Content Performance</div>
+                </div>
+                <div class="metric-value" id="avg-view-per-post">-</div>
+                <div class="metric-label">Average Views</div>
+                <div class="metric-stats">
+                    <div class="stat-item">
+                        <div class="stat-value" id="best-performing-day">-</div>
+                        <div class="stat-label">Best Performance</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="engagement-trend">-</div>
+                        <div class="stat-label">Engagement Trend</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-header">
+                    <div class="metric-title">Interaction Distribution</div>
+                </div>
+                <div class="metric-value" id="interaction-distribution">-</div>
+                <div class="metric-label">Interaction Distribution</div>
+                <div class="metric-stats">
+                    <div class="stat-item">
+                        <div class="stat-value" id="platform-specific-metric">-</div>
+                        <div class="stat-label" id="platform-specific-label">-</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="response-rate">-</div>
+                        <div class="stat-label">Response Rate</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="charts-grid">
+            <div class="chart-card">
+                <div class="chart-title">Interaction Distribution</div>
+                <div id="scatter-plot"></div>
+            </div>
+            <div class="chart-card">
+                <div class="chart-title">Sentiment Analysis Trend</div>
+                <div id="trend-chart"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

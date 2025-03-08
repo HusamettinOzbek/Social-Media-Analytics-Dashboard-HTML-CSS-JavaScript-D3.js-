@@ -1,2 +1,2 @@
-# Social-Media-Analytics-Dashboard-HTML-CSS-JavaScript-D3.js-
-A social media tracking application built using HTML, CSS, and JavaScript with D3.js for data visualization. This platform provides insights into user engagement, follower growth, and interaction trends across multiple social media channels.
+# IsBank-Social-Analytics-D3
+Marmara Üniversitesi Doç. Dr. Fatma Bilge Şenyüz'ün "Sosyal Medyada İçerik Üretimi ve Yönetimi" dersi için hazırlanan bu projede, İş Bankası'nın sosyal medya verileri analiz edilmiş ve etkileşim oranları, içerik türleri ile platform performansları grafiklerle görselleştirilmiştir.
