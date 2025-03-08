@@ -15,3 +15,5 @@ This project is a social media tracking application developed using **HTML, CSS,
 ## Technologies Used
 - **HTML, CSS** – Frontend structure and styling
 - **JavaScript (D3.js)** – Data visualization and interactive elements
+
+<img width="1728" alt="img-1" src="https://github.com/user-attachments/assets/2ff81473-3215-4f67-b76d-9a4c1f772466" />
